@@ -19,63 +19,76 @@ dev = [{ name = "mypy" }, { name = "pytest" }, { name = "pytest-cov" }, { name =
 name = "alembic"
 version = "1.14.0"
 source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/source/a/alembic/alembic-1.14.0.tar.gz" }
 
 [[package]]
 name = "fastapi"
 version = "0.115.0"
 source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/source/f/fastapi/fastapi-0.115.0.tar.gz" }
 
 [[package]]
 name = "httpx"
 version = "0.28.1"
 source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/source/h/httpx/httpx-0.28.1.tar.gz" }
 
 [[package]]
 name = "jdatetime"
 version = "5.2.0"
 source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/source/j/jdatetime/jdatetime-5.2.0.tar.gz" }
 
 [[package]]
 name = "pydantic-settings"
 version = "2.7.0"
 source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/source/p/pydantic_settings/pydantic_settings-2.7.0.tar.gz" }
 
 [[package]]
 name = "psycopg"
 version = "3.2.3"
 source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/source/p/psycopg/psycopg-3.2.3.tar.gz" }
 
 [[package]]
 name = "python-json-logger"
 version = "3.2.1"
 source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/source/p/python_json_logger/python_json_logger-3.2.1.tar.gz" }
 
 [[package]]
 name = "sqlalchemy"
 version = "2.0.36"
 source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/source/s/sqlalchemy/sqlalchemy-2.0.36.tar.gz" }
 
 [[package]]
 name = "uvicorn"
 version = "0.34.0"
 source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/source/u/uvicorn/uvicorn-0.34.0.tar.gz" }
 
 [[package]]
 name = "mypy"
 version = "1.14.0"
 source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/source/m/mypy/mypy-1.14.0.tar.gz" }
 
 [[package]]
 name = "pytest"
 version = "8.3.4"
 source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/source/p/pytest/pytest-8.3.4.tar.gz" }
 
 [[package]]
 name = "pytest-cov"
 version = "6.0.0"
 source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/source/p/pytest_cov/pytest_cov-6.0.0.tar.gz" }
 
 [[package]]
 name = "ruff"
 version = "0.9.1"
 source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/source/r/ruff/ruff-0.9.1.tar.gz" }
