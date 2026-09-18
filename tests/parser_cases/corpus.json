@@ -1,0 +1,17 @@
+[
+  {"input":"350k taxi","type":"EXPENSE","amountIrr":3500000,"category":"TRANSPORTATION"},
+  {"input":"۳۵۰ هزار اسنپ","type":"EXPENSE","amountIrr":3500000,"category":"TRANSPORTATION"},
+  {"input":"350k اسنپ","type":"EXPENSE","amountIrr":3500000,"category":"TRANSPORTATION"},
+  {"input":"۳۵۰ هزار taxi","type":"EXPENSE","amountIrr":3500000,"category":"TRANSPORTATION"},
+  {"input":"2m clothes","type":"EXPENSE","amountIrr":20000000,"category":"CLOTHING"},
+  {"input":"۲ میلیون لباس","type":"EXPENSE","amountIrr":20000000,"category":"CLOTHING"},
+  {"input":"salary 50m","type":"INCOME","amountIrr":500000000,"category":"SALARY"},
+  {"input":"حقوق 50m","type":"INCOME","amountIrr":500000000,"category":"SALARY"},
+  {"input":"دیروز 450k taxi","type":"EXPENSE","amountIrr":4500000,"category":"TRANSPORTATION"},
+  {"input":"قرض دادم به علی 5m","type":"DEBT_GIVEN","amountIrr":50000000,"category":null},
+  {"input":"10m قرض گرفتم از رضا","type":"DEBT_RECEIVED","amountIrr":100000000,"category":null},
+  {"input":"0.1 ETH خریدم","type":"ASSET_BUY","amountIrr":1,"category":null},
+  {"input":"قهوه","type":"EXPENSE","amountIrr":null,"category":"FOOD"},
+  {"input":"2m","type":"EXPENSE","amountIrr":20000000,"category":null}
+]
+

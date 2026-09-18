@@ -1,0 +1,81 @@
+version = 1
+revision = 3
+requires-python = ">=3.12"
+
+[[package]]
+name = "ezfinancebot"
+version = "0.1.0"
+source = { editable = "." }
+dependencies = [
+ { name = "alembic" }, { name = "fastapi" }, { name = "httpx" }, { name = "jdatetime" },
+ { name = "pydantic-settings" }, { name = "psycopg", extra = ["binary"] },
+ { name = "python-json-logger" }, { name = "sqlalchemy" }, { name = "uvicorn" },
+]
+
+[package.dev-dependencies]
+dev = [{ name = "mypy" }, { name = "pytest" }, { name = "pytest-cov" }, { name = "ruff" }]
+
+[[package]]
+name = "alembic"
+version = "1.14.0"
+source = { registry = "https://pypi.org/simple" }
+
+[[package]]
+name = "fastapi"
+version = "0.115.0"
+source = { registry = "https://pypi.org/simple" }
+
+[[package]]
+name = "httpx"
+version = "0.28.1"
+source = { registry = "https://pypi.org/simple" }
+
+[[package]]
+name = "jdatetime"
+version = "5.2.0"
+source = { registry = "https://pypi.org/simple" }
+
+[[package]]
+name = "pydantic-settings"
+version = "2.7.0"
+source = { registry = "https://pypi.org/simple" }
+
+[[package]]
+name = "psycopg"
+version = "3.2.3"
+source = { registry = "https://pypi.org/simple" }
+
+[[package]]
+name = "python-json-logger"
+version = "3.2.1"
+source = { registry = "https://pypi.org/simple" }
+
+[[package]]
+name = "sqlalchemy"
+version = "2.0.36"
+source = { registry = "https://pypi.org/simple" }
+
+[[package]]
+name = "uvicorn"
+version = "0.34.0"
+source = { registry = "https://pypi.org/simple" }
+
+[[package]]
+name = "mypy"
+version = "1.14.0"
+source = { registry = "https://pypi.org/simple" }
+
+[[package]]
+name = "pytest"
+version = "8.3.4"
+source = { registry = "https://pypi.org/simple" }
+
+[[package]]
+name = "pytest-cov"
+version = "6.0.0"
+source = { registry = "https://pypi.org/simple" }
+
+[[package]]
+name = "ruff"
+version = "0.9.1"
+source = { registry = "https://pypi.org/simple" }
