@@ -1,0 +1,30 @@
+services:
+  postgres:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_USER: finance
+      POSTGRES_PASSWORD: finance
+      POSTGRES_DB: finance
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U finance"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    volumes: ["postgres-data:/var/lib/postgresql/data"]
+  redis:
+    image: redis:7-alpine
+  api:
+    build: .
+    command: ["uv", "run", "uvicorn", "apps.api.main:app", "--host", "0.0.0.0"]
+    env_file: .env
+    ports: ["8000:8000"]
+    depends_on:
+      postgres: {condition: service_healthy}
+  telegram_gateway:
+    build: .
+    command: ["uv", "run", "uvicorn", "apps.telegram_gateway.main:app", "--host", "0.0.0.0", "--port", "8001"]
+    env_file: .env
+    ports: ["8001:8001"]
+volumes:
+  postgres-data:
+
